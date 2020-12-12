@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js.js"></script>
+
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+<div class="upform">
+
+
+  <form>
+
+    <div class="upform-header"></div>
+
+    <div class="upform-main">
+
+
+      <div class="input-block">
+        <div class="label"> Q1=> Please enter the dimensions of room below(Format- L,B,H)</div>
+        <div class="input-control">
+          <input type="text" class="required" autocomplete="off">
+        </div>
+      </div>
+
+    </div>
+
+      <div class="input-block">
+        <div class="label">Q3=> Is electrical work required in drawing room?</div>
+        <div class="input-control">
+          <input id="toggle-on-q3" class="toggle toggle-left" name="q3" value="yes" type="radio">
+          <label for="toggle-on-q3" class="btn"><span>A</span> Yes</label>
+          <input id="toggle-off-q3" class="toggle toggle-right" name="q3" value="no" type="radio">
+          <label for="toggle-off-q3" class="btn"><span>B</span> No</label>
+        </div>
+      </div>
+
+     
+
+    <div class="upform-footer">
+      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+    </div>
+
+  </form>
+
+
+</div>
+</body>
+</html>
